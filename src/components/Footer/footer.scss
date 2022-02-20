@@ -1,0 +1,24 @@
+.Footer {
+    height: 80px;
+    background: #101522;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+
+    p {
+        color: #97a5ac;
+        padding-top: 20px;
+    }
+
+    ul {
+        padding-top: 20px;
+        color: #97a5ac;
+        display: flex;
+    }
+
+    li {
+        list-style: none;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+}

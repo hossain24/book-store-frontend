@@ -1,0 +1,77 @@
+.Logo {
+    //margin-left: 3rem;
+    float: left;
+    display: flex;
+    justify-content: center;
+    //padding: 0px 50px 0px 50px;
+    cursor: pointer;
+
+    @media screen and (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    p {
+        @media screen and (max-width: 768px) {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+
+    a {
+        font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+        text-decoration: none;
+        color: #4584aa;
+        font-size: 25px;
+
+        &:hover {
+            transition: all 0.5s ease-in-out;
+            color: #e22b62;
+        }
+    }
+}
+
+.Navigation-Toggle {
+    display: none;
+}
+
+.Navigation {
+    float: right;
+
+    ul {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+
+        li {
+            cursor: pointer;
+            color: #1de9b6;
+            font-size: 16px;
+            margin-inline-end: 50px;
+
+            .Link {
+                font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+                text-decoration: none;
+                color: #1de9b6;
+                font-size: 16px;
+
+                &:hover {
+                    border-bottom: 1px solid #c3c3c3;
+                    transition: all 0.5s ease-in-out;
+                    color: rgb(226, 43, 98);
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Navigation {
+        display: none;
+    }
+
+}
