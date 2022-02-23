@@ -1,7 +1,6 @@
 import React from 'react';
 import './landing-page.scss';
-import rightBook from '../../images/book1.png';
-import leftBook from '../../images/book3.png';
+
 
 const LandingPage = () => {
     return (
@@ -9,12 +8,12 @@ const LandingPage = () => {
             <div className="LandingPage">
                 <div className="LeftPanel">
                     <div id="Circle">
-                        <img alt='' src={leftBook} />
+                        <img src="./images/book3.png" alt='book' />
                     </div>
                 </div>
                 <div className="RightPanel">
                     <div id="Square">
-                        <img alt='' src={rightBook} />
+                        <img src="./images/book1.png" alt='book' />
                     </div>
                 </div>
             </div>
