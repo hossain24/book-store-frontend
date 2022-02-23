@@ -1,28 +1,17 @@
 import React from 'react';
 import './info-page.scss';
+import { data } from './info-source';
 
 const InfoPage = () => {
     return (
         <>
             <div className="InfoPage">
-                <div className="InfoSection">
-                    <h3>Info Header</h3>
-                    <p>Information</p>
-                    <p>Information</p>
-                    <p>Information</p>
-                </div>
-                <div className="InfoSection">
-                    <h3>Info Header</h3>
-                    <p>Information</p>
-                    <p>Information</p>
-                    <p>Information</p>
-                </div>
-                <div className="InfoSection">
-                    <h3>Info Header</h3>
-                    <p>Information</p>
-                    <p>Information</p>
-                    <p>Information</p>
-                </div>
+                {data.map(info => (
+                    <div key={info.id} className="InfoSection">
+                        <h3>{info.title}</h3>
+                        <p>{info.description}</p>
+                    </div>
+                ))}
             </div>
         </>
     );

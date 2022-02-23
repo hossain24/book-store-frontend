@@ -1,5 +1,4 @@
-import React from 'react';
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 import './public-page-two.scss';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
