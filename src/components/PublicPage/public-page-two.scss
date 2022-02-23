@@ -30,7 +30,7 @@ $bg_color2: #0a1929;
 
     .BookCard {
         background-color: #0a1929;
-        width: 350px;
+        width: 100%;
         padding: 10px;
         margin-bottom: 2rem;
         text-align: center;
@@ -41,7 +41,7 @@ $bg_color2: #0a1929;
         margin-left: auto;
         margin-right: auto;
 
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 800px) {
             width: 200px;
             display: block;
             margin-left: auto;
