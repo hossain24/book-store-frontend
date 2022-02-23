@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Footer from '../components/Footer/Footer';
+import InfoPage from '../components/InfoPage/InfoPage';
 import LandingPage from '../components/LandingPage/LandingPage';
 import MobileNavigation from '../components/NavBar/MobileNavigation';
 import NavBar from '../components/NavBar/NavBar';
@@ -19,6 +20,7 @@ const BookStore = () => {
             <MobileNavigation isOpen={isOpen} toggle={toggle} />
             <LandingPage />
             <PublicPageTwo />
+            <InfoPage />
             <Footer />
         </>
     );
