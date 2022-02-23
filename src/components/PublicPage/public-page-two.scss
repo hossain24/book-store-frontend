@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+$bg_color: linear-gradient(108deg,
+    rgba(1, 43, 36, 49) 0%,
+    rgba(43, 36, 49, 1) 100%);
+
+$bg_color2: #0a1929;
+
+.PublicPage {
+    background: $bg_color2;
+    width: 100%;
+
+    .FlexContainer {
+        width: 100%;
+        padding: 5rem 3rem 5rem 3rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+
+        @media screen and (max-width: 720px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media screen and (max-width: 480px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    .BookCard {
+        background-color: #0a1929;
+        width: 350px;
+        padding: 10px;
+        margin-bottom: 2rem;
+        text-align: center;
+        font-size: 16px;
+        color: cadetblue;
+        border-radius: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        @media screen and (max-width: 768px) {
+            width: 200px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        span {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: cadetblue;
+        }
+
+        img {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+
+            @media screen and (max-width: 768px) {
+                width: 100%;
+                height: 100px;
+                object-fit: cover;
+            }
+        }
+
+        .ButtonArea {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+            @media screen and (max-width: 768px) {
+                font-size: 10px;
+
+                span {
+                    color: #c62026;
+                    font-size: 10px;
+                }
+
+            }
+
+            span {
+                color: #c62026;
+                font-size: 20px;
+            }
+        }
+    }
+}

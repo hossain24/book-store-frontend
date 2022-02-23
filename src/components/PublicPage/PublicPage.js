@@ -27,11 +27,11 @@ const PublicPage = () => {
     return (
         <>
             <div className="PublicPage">
-                <Box sx={{ flexGrow: 3 }}>
+                <Box sx={{ flexGrow: 3 }} >
                     <Grid container spacing={5}>
                         {books.map(book => (
                             <Grid item xs="auto" key={book._id}>
-                                <Card sx={{ maxWidth: 350 }} >
+                                <Card sx={{ maxWidth: 350 }}>
                                     <CardMedia
                                         component="img"
                                         height="250"

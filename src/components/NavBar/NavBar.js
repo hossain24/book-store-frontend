@@ -37,7 +37,7 @@ const NavLogo = styled(LinkR)`
     color: #009688;
     &:hover {
         transition: all 0.5s ease-in-out;
-        color: #5f3c1b;
+        color: #0a1929;
     }
     justify-self: flex-start;
     cursor: pointer;
