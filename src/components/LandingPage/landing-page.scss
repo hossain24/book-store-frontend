@@ -12,6 +12,27 @@ $bg_color2: #0a1929;
         grid-template-columns: repeat(1, 1fr);
     }
 
+
+    @keyframes imagesection {
+        from {
+            box-shadow: 5px 10px 15px #00e676;
+        }
+
+        to {
+            box-shadow: 5px 10px 15px #113a26;
+        }
+    }
+
+    @keyframes imagesection2 {
+        from {
+            box-shadow: 5px 10px 15px #ff0000;
+        }
+
+        to {
+            box-shadow: 5px 10px 15px #00e660;
+        }
+    }
+
     .LeftPanel {
         height: 100%;
         width: 50%;
@@ -30,6 +51,8 @@ $bg_color2: #0a1929;
             left: 50%;
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+            box-shadow: 5px 10px 15px #00e676;
+            //animation: imagesection 5s ease-in-out alternate infinite;
         }
 
         @media screen and (max-width: 768px) {
@@ -61,6 +84,8 @@ $bg_color2: #0a1929;
             left: 50%;
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+            //box-shadow: 5px 10px 15px #00e676;
+            animation: imagesection2 5s ease-in-out alternate infinite;
         }
 
         @media screen and (max-width: 768px) {
