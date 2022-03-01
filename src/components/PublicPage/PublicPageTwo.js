@@ -31,9 +31,9 @@ const PublicPageTwo = () => {
                                 <span>Language:</span> {book.language}
                             </p>
                             <Stack spacing={2} direction="row" className="ButtonArea">
-                                <Button variant="outlined" size="small">BUY</Button>
+                                <Button href="/signin" variant="outlined" size="small">BUY</Button>
                                 <span>/</span>
-                                <Button variant="outlined" size="small">RENT</Button>
+                                <Button href="/signin" variant="outlined" size="small">RENT</Button>
                             </Stack>
                         </div>
                     ))}

@@ -11,6 +11,7 @@ export const SidebarContainer = styled.aside`
     background: #101522;
     display: grid;
     align-items: center;
+    justify-content: center;
     top: 0;
     left: 0;
     transition: 0.3s ease-in-out;
@@ -58,9 +59,9 @@ export const SidebarLink = styled(LinkS)`
     text-decoration: none;
     color: #fff;
     cursor: pointer;
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
     &:hover {
-        color: #e22b62;
+        color: #344322;
         transition: 0.2s ease-in-out;
     }
 `
@@ -80,12 +81,12 @@ export const SidebarRoute = styled(LinkR)`
     outline: none;
     border: none;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
     text-decoration: none;
 
     &:hover {
-        transition: all 0.3s ease-in-out;
-        background: #5f3c1b;
+        transition: all 0.2s ease-in-out;
+        background: #fff;
         color: #344322;
     }
 `

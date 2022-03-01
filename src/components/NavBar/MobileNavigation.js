@@ -7,7 +7,7 @@ import {
     SidebarMenu,
     SidebarLink,
 } from './mobile-navigation';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const MobileNavigation = ({ isOpen, toggle }) => {
     return (
