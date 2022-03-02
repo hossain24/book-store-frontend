@@ -4,7 +4,6 @@ import {
     Icon,
     CloseIcon,
     SidebarWrapper,
-    SidebarMenu,
     SidebarLink,
 } from './mobile-navigation';
 
@@ -15,20 +14,20 @@ const MobileNavigation = ({ isOpen, toggle }) => {
                 <CloseIcon />
             </Icon>
             <SidebarWrapper>
-                <SidebarMenu>
-                    <SidebarLink to="book" onClick={toggle}>
-                        Book
-                    </SidebarLink>
-                    <SidebarLink to="buy" onClick={toggle}>
-                        Buy
-                    </SidebarLink>
-                    <SidebarLink to="rent" onClick={toggle}>
-                        Rent
-                    </SidebarLink>
-                    <SidebarLink to="explore" onClick={toggle}>
-                        Explore
-                    </SidebarLink>
-                </SidebarMenu>
+
+                <SidebarLink to="book" onClick={toggle}>
+                    Book
+                </SidebarLink>
+                <SidebarLink to="buy" onClick={toggle}>
+                    Buy
+                </SidebarLink>
+                <SidebarLink to="rent" onClick={toggle}>
+                    Rent
+                </SidebarLink>
+                <SidebarLink to="explore" onClick={toggle}>
+                    Explore
+                </SidebarLink>
+
             </SidebarWrapper>
         </SidebarContainer>
     );

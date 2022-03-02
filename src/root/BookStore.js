@@ -16,8 +16,8 @@ const BookStore = () => {
 
     return (
         <>
-            <NavBar toggle={toggle} />
             <MobileNavigation isOpen={isOpen} toggle={toggle} />
+            <NavBar toggle={toggle} />
             <LandingPage />
             <PublicPageTwo />
             <InfoPage />
