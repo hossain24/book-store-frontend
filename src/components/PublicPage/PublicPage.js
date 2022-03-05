@@ -16,7 +16,7 @@ const PublicPage = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-            const response = await fetch('https://remote-library-api.herokuapp.com/books');
+            const response = await fetch('https://remote-library-node.azurewebsites.net/books');
             const books = await response.json();
             console.log(books);
             setBooks(books);
