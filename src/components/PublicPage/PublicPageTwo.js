@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from "react-router-dom";
 import './public-page-two.scss';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
@@ -31,9 +32,9 @@ const PublicPageTwo = () => {
                                 <span>Language:</span> {book.language}
                             </p>
                             <Stack spacing={2} direction="row" className="ButtonArea">
-                                <Button href="/signin" variant="outlined" size="small">BUY</Button>
+                                <Button variant="outlined" size="small"><Link to="signin">BUY</Link></Button>
                                 <span>/</span>
-                                <Button href="/signin" variant="outlined" size="small">RENT</Button>
+                                <Button to="/signin" variant="outlined" size="small"><Link to="signin">RENT</Link></Button>
                             </Stack>
                         </div>
                     ))}
