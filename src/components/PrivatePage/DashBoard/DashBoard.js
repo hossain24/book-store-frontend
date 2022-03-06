@@ -40,7 +40,7 @@ const DashBoard = () => {
                     {currentUser ? (
                         <div className="navbar-nav ms-auto">
                             <li className="nav-item">
-                                <Link to={"/signin"} className="nav-link" onClick={signOut}>
+                                <Link to={"/"} className="nav-link" onClick={signOut}>
                                     Signout
                                 </Link>
                             </li>
@@ -66,7 +66,7 @@ const DashBoard = () => {
                     <Routes>
                         <Route path="/private" element={<Private />} />
                         <Route path="/signin" element={<SignIn />} />
-                        <Route path="/signup" element={<SignUp />} />
+                        <Route path="/signin" element={<SignUp />} />
                     </Routes>
                 </div>
             </div>
