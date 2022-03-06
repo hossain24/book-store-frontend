@@ -1,0 +1,38 @@
+$bg_color: linear-gradient(108deg,
+    rgba(1, 43, 36, 49) 0%,
+    rgba(43, 36, 49, 1) 100%);
+
+$bg_color2: #98e0cb;
+
+.OrderList {
+    background: no-repeat 100% url(./jpg-22.jpg);
+
+    height: 100wh;
+    padding: 5rem;
+
+    ul {
+        // display: flex;
+        // justify-content: space-between;
+
+        li {
+            list-style: none;
+            margin-bottom: 5px;
+        }
+    }
+
+    .BookCardContent {
+        background: #101522;
+        color: rgb(171, 204, 204);
+    }
+
+    span {
+        color: cadetblue;
+    }
+
+    h1 {
+        font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+        padding-bottom: 2rem;
+        text-align: center;
+        color: rgb(11, 32, 36);
+    }
+}

@@ -34,7 +34,7 @@ const PublicPageTwo = () => {
                             <Stack spacing={2} direction="row" className="ButtonArea">
                                 <Button variant="outlined" size="small"><Link to="signin">BUY</Link></Button>
                                 <span>/</span>
-                                <Button to="/signin" variant="outlined" size="small"><Link to="signin">RENT</Link></Button>
+                                <Button variant="outlined" size="small"><Link to="signin">RENT</Link></Button>
                             </Stack>
                         </div>
                     ))}
