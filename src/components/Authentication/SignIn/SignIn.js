@@ -28,7 +28,7 @@ const SignIn = () => {
             auth.signin(email, password).then(
                 () => {
                     navigate("/dashboard");
-                    window.location.reload();
+                    // window.location.reload();
                 },
                 (error) => {
                     console.log(error);
