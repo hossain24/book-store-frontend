@@ -5,7 +5,7 @@ import Private from "../Private/Private";
 import SignIn from "../../Authentication/SignIn/SignIn";
 import SignUp from "../../Authentication/SignIn/SignIn";
 import "./dash-board.scss";
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 const DashBoard = () => {
     const [currentUser, setCurrentUser] = useState(undefined);
