@@ -2,7 +2,7 @@ import axios from "axios";
 import TokenService from "./token";
 
 const instance = axios.create({
-    baseURL: "http://localhost:5000",
+    baseURL: "https://remote-library-node.azurewebsites.net",
     headers: {
         "Content-Type": "application/json",
     },
