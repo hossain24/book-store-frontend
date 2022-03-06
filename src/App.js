@@ -12,10 +12,10 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<BookStore />} exact />
-        <Route path="signin" element={<SignIn />} exact />
-        <Route path="dashboard" element={<DashBoard />} exact />
-        <Route path='/order-list' element={<OrderList />} exact />
+        <Route path="/" element={<BookStore />} />
+        <Route path="signin" element={<SignIn />} />
+        <Route path="dashboard" element={<DashBoard />} />
+        <Route path='/order-list' element={<OrderList />} />
         <Route path="/private" element={<Private />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
